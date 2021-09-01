@@ -1,53 +1,61 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <body style="background-color: hsla(0, 100%, 49%, 0.548)">
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    
-
-
-    <title>INICIO DF</title>
+    <title>PRACTICA SUPERVISADA</title>
   </head>
-  <body>
-<div class="container"></div>
-
-   <center> <br><img src="imgs/logoem.jpg" class="img-fluid" width="1350" alt="..."></center>
-   <br><br>
-
-
+      <body style="background-color: hsla(0, 100%, 49%, 0.548)">
+   <CENter><h1> -USUARIO Y CONTRASEÑA MENSAJERIA.<br> -DE DIEGO FRANCISCO PEREZ GALEANO. 5TO BACO.</h1></CENter> 
+    <nav class=" navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EMPRESA DE CAPACITACION</font></font></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Navegación de palanca">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+    <br>
+       
+         
 <center>
     <div class="btn-group w-100" role="group" aria-label="Basic example">
-    <button type="button"  class="btn btn-outline-warning"><a href="cards.html" style="text-decoration: none;">PRODUCTOS / SERVICIOS</button></a>
+      <button type="button"  class="btn btn-outline-danger"><a href="clientes.php" style="text-decoration: none;">CONTACTENOS</button></a>
+    <button type="button"  class="btn btn-outline-warning"><a href="productos.html" style="text-decoration: none;">PRODUCTOS / SERVICIOS</button></a>
     <button type="button" class="btn btn-outline-info"><a href="tienda.html" style="text-decoration: none;">TIENDAS</button></a>
-    <button type="button" class="btn btn-outline-primary">CONTACTENOS</button>
+    <button type="button" class="btn btn-outline-primary"><a href="mensajes.php" style="text-decoration: none;">MENSAJES</button></a>
   </div>
 </center>
  <br><br>
-<center><h2>OFERTAS AL MES</h2></center>
-<br><br>
-      <img src="imgs/asis.jpg" class="rounded float" style="height: 600px;margin-left: 70px;  width:600px ;" >
-      <img src="imgs/cap1.jpg" class="rounded float" style="height: 280px; width:240px; margin-left: 37px;   margin-top: -320px;">
-      <img src="imgs/cer.jpg" class="rounded float" style="height: 280px; width:240px ; margin-left: 45px;   margin-top: -320px;">
-      <img src="imgs/for.jpg" class="rounded float" style="height: 305px; width:540px ; margin-left: 710px;   margin-top: -330px ;">
-   </div>
+
+        </div>
+      </div>
+    </nav>
+    <br>
+    <center>
+    <div class="card" style="width: 18rem;">
+      <img src="imgs/imagen.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <form action="validar.php" method="get">
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">USUARIO</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="admin Solo Se Permite 1 Intento." name="usuario">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">CONTRASEÑA</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="mensajes Solo Se Permite 1 Intento." name = "contrasenia">
+          </div>
+         <CENter> <button type="submit" class="btn btn-primary">ACEPTAR</button></CENter>
+        </form>
+      </div>
     </div>
-  </div>
-
+  </center>
   <br>
-  <table class="table table-info table-striped">
-    <thead>
-      <tr>
-        <th scope="col">PBX: 32428838  DIRECCION: 20 CALLE A 2-12 ZONA 21 GUATEMALA</th>
-        <th scope="col">CARNE: 2017-40416</th>
-        <th scope="col">NOMBRE: DIEGO FRANCISCO PEREZ GALEANO</th>
-      </tr>
-    </thead>
-</table>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
    
-
   </body>
 </html>
