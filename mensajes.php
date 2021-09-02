@@ -2,21 +2,19 @@
 <!doctype html>
 <html lang="en">
   <head>
-   
+   <body background="imgs/w.png">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Clientes</title>
+    <title>MENSAJES</title>
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">"BASE DE DATOS pcc2021_evalfinal. DIEGO FRANCISCO PEREZ GALEANO  5to Baco. PROYECTO FINAL DFPG"</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <body style="background-color: hsla(0, 100%, 49%, 0.548)">
+    <a class="navbar-brand" href="#"><center>"Base de Datos pcc2021_evalfinal". Diego Francisco Perez Galeano  5to Baco."Proyecto Final"</center></a>
+   
 
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav me-auto">
@@ -28,8 +26,6 @@
 
       
  <form action="busca_usuario.php" method="GET" class="d-flex">
-    <input class="form-control me-sm-2" type="text" placeholder="Buscar" name="busqueda" id="busqueda">
-       <input type="submit" class="btn btn-secondary my-2 my-sm-0" value="Buscar">
       </form>
     </div>
   </div>
@@ -44,7 +40,7 @@
         <div class="btn-group w-100" role="group" aria-label="Basic example">
      <button type="button" class="btn btn-outline-warning"><a href="inicio.html" style="text-decoration: none;">INICIO</button></a>
         <button type="button" class="btn btn-outline-info"><a href="tienda.html" style="text-decoration: none;">TIENDAS</button></a>
-        <button type="button" class="btn btn-outline-primary"><a href="clientes.php" style="text-decoration: none;">CONTACTENOS</button></a>
+        <button type="button" class="btn btn-outline-primary"><a href="clientes.php" style="text-decoration: none;">CONTÁCTENOS</button></a>
       </div>
     </center>
     </nav>
@@ -69,7 +65,7 @@
     <table class="table">
   <thead>
     <tr>
-      <th scope="col">No_Cliente</th>
+      <th scope="col">No-SMS</th>
       <th scope="col">Telefono</th>
       <th scope="col">Nombre</th>
       <th scope="col">Mensajes</th>

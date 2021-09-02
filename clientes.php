@@ -6,17 +6,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <title>Clientes</title>
+<body background="imgs/w.png">
+    <title>CONTACTENOS</title>
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">"BASE DE DATOS pcc2021_evalfinal. DIEGO FRANCISCO PEREZ GALEANO 5to Baco. PROYECTO FINAL DFPG"</a>
+    <a class="navbar-brand" href="#">"Base de Datos pcc2021_evalfinal". Diego Francisco Perez Galeano  5to Baco."Proyecto Final"</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <body style="background-color: hsla(0, 100%, 49%, 0.548)">
+
 
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav me-auto">
@@ -29,8 +29,7 @@
 
       
  <form action="busca_usuario.php" method="GET" class="d-flex">
-    <input class="form-control me-sm-2" type="text" placeholder="Buscar" name="busqueda" id="busqueda">
-       <input type="submit" class="btn btn-secondary my-2 my-sm-0" value="Buscar">
+  
       </form>
     </div>
   </div>
@@ -41,13 +40,13 @@
         <div class="btn-group w-100" role="group" aria-label="Basic example">
      <button type="button" class="btn btn-outline-warning"><a href="inicio.html" style="text-decoration: none;">INICIO</button></a>
         <button type="button" class="btn btn-outline-info"><a href="tienda.html" style="text-decoration: none;">TIENDAS</button></a>
-        <button type="button" class="btn btn-outline-primary"><a href="mensajes.php" style="text-decoration: none;">MENSAJES</button></a>
+        <button type="button" class="btn btn-outline-primary"><a href="mensajes.php" style="text-decoration: none;">VER MENSAJES</button></a>
       </div>
     </center>
   </nav>
 <br><br>
  <br>
-<center><h1>CONTACTENOS</h1></center>
+<center><h1>CONTÁCTENOS</h1></center>
    <br>
 <form action="guardar.php" method="POST">
 <div class="container">
@@ -57,7 +56,7 @@
 <br>
       <div class="form-floating mb-3">
   <input type="text" class="form-control" id="floatingInput" placeholder="codcliente" name="codcliente">
-  <label for="floatingInput">No_Cliente</label>
+  <label for="floatingInput">No-SMS</label>
 </br>
 <div class="form-floating mb-3">
   <input type="text" class="form-control" id="floatingInput" placeholder="nit" name="nit">
@@ -83,7 +82,7 @@
 <input type="submit" class="btn btn-danger" name="enviar">
 </form>
 </center>
-
+</div>
 <br>
 <br>
   <table class="table table-info table-striped">
