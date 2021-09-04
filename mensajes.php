@@ -1,7 +1,8 @@
 <?php include("bd.php");?>
 <!doctype html>
 <html lang="en">
-  <head>
+  <head><link rel="shortcut icon" href="imgs/li.jpg">
+
    <body background="imgs/w.png">
 
     <meta charset="utf-8">
@@ -64,14 +65,15 @@
     <div class="col-8">
     <table class="table">
   <thead>
-    <tr>
+    <tr class="table-info">    <tr>
       <th scope="col">No-SMS</th>
       <th scope="col">Telefono</th>
       <th scope="col">Nombre</th>
       <th scope="col">Mensajes</th>
       <th scope="col">Correo Electronico</th>
       <th scope="col">Elimine SMS</th>
-    </tr>
+    </tr></tr>
+
   </thead>
 </center>
   <tbody>

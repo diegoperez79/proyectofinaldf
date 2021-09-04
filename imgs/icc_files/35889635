@@ -1,0 +1,13 @@
+/* #2107789356 */
+_oEa.pmdenyall = 0;_oEa.hpmdeny = _oEa.hpmdeny || {};_oEa.pmpass = function( pmcat, tcfv2vendor, tcfv2purpose, tcfv2customvendor, tcfv2sfeature ) {var o = _oEa;return 1;};
+_oEa.website("freepik");if (_oEa.isdef(typeof _oEa.uidset )) {_oEa.uidset("XQSHP6Zyzi6yCTtRv40mC9YC5SPSaR.UNhgDSt8BcV_8FQpw2dhBjg--");}var _EaCP = {"cgip" : _oEa.hcgi,"tp":{"":""}};
+_oEa.dcrun = function( nc ) { /* nc: no consent */
+_oEa.xpathdc = {};
+if (!nc && _oEa.pmdenyall) { return; }
+};
+_oEa.mtrun = function( nc ) {
+_oEa.xpathmt = {};
+if (_oEa.pmdenyall) { return; }
+};
+_oEa.waitPM = function(f) {var o = _oEa;return 0;};_oEa.mtdcrun = function() {var o = _oEa;if (o.waitPM(o.mtdcrun)) { return; }o.mtrun();o.dcrun();};_oEa.mtdcrunNC = function() {var o = _oEa;o.dcrun(1);o.mtrun(1);};_oEa.mtdcrunNC();_oEa.mtdcrun();/* end !pmistcfv2 */_oEa.websiteend();
+ /* end !config */

@@ -2,12 +2,13 @@
 <!doctype html>
 <html lang="en">
   <head>
-   
+   <link rel="shortcut icon" href="imgs/li.jpg">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <body background="imgs/w.png">
-    <title>CONTACTENOS</title>
+    <title>CONTÁCTENOS</title>
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -40,7 +41,7 @@
         <div class="btn-group w-100" role="group" aria-label="Basic example">
      <button type="button" class="btn btn-outline-warning"><a href="inicio.html" style="text-decoration: none;">INICIO</button></a>
         <button type="button" class="btn btn-outline-info"><a href="tienda.html" style="text-decoration: none;">TIENDAS</button></a>
-        <button type="button" class="btn btn-outline-primary"><a href="mensajes.php" style="text-decoration: none;">VER MENSAJES</button></a>
+        <button type="button" class="btn btn-outline-primary"><a href="inicio2.html" style="text-decoration: none;">VER MENSAJES</button></a>
       </div>
     </center>
   </nav>
@@ -54,7 +55,7 @@
     <div class="col-4">
 </div>
 <br>
-      <div class="form-floating mb-3">
+ <div class="form-floating mb-3">
   <input type="text" class="form-control" id="floatingInput" placeholder="codcliente" name="codcliente">
   <label for="floatingInput">No-SMS</label>
 </br>
@@ -79,12 +80,14 @@
 </div>
 <br>
 <center>
-<input type="submit" class="btn btn-danger" name="enviar">
+<input type="submit"  class="btn btn-danger" name="enviar"><br>
+<br>
 </form>
 </center>
 </div>
 <br>
 <br>
+
   <table class="table table-info table-striped">
     <thead>
       <tr>
